@@ -29,4 +29,9 @@ class SessionsController extends Controller
         }
         return;
     }
+    //logout
+    public function destroy(Request $request)
+    {
+
+    }
 }
